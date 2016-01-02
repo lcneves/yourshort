@@ -1,0 +1,28 @@
+{
+  "name": "yourshort",
+  "version": "1.0.0",
+  "description": "URL shortening service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lcneves/yourshort.git"
+  },
+  "keywords": [
+    "url",
+    "shortening",
+    "freeCodeCamp"
+  ],
+  "author": "Lucas Neves",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lcneves/yourshort/issues"
+  },
+  "homepage": "https://github.com/lcneves/yourshort#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "mongo": "^0.1.0",
+  }
+}
