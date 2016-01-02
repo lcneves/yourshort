@@ -23,6 +23,6 @@
   "homepage": "https://github.com/lcneves/yourshort#readme",
   "dependencies": {
     "express": "^4.13.3",
-    "mongo": "^0.1.0",
+    "mongo": "^0.1.0"
   }
 }
