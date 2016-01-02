@@ -12,7 +12,7 @@ var PORT = process.env.PORT || 8080,
 var util = require('util');
 
 app.get('/', function (req, res) {
-    res.send(':-)');
+    res.send('Usage: go to ' + req.headers.host + '/new/{URL} to create a new short URL.');
 });
 
 app.get('/new/*', function (req, res) {
